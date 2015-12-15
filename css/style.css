@@ -1,0 +1,103 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.bwm-logo-box {
+	background: #fff;
+	width: 229px;
+	height: 229px;
+	margin: 20% auto 0;
+	border: 2px solid #010101;
+	padding: 3px;
+}
+
+.bwm-logo-box, .black, .white {
+	border-radius: 50%;
+}
+
+
+.black {
+	background: #010101;
+	width: 229px;
+	height: 229px;
+	position: relative;
+}
+
+.white {
+	width: 140px;
+	height: 140px;
+	background: #fff;
+	left:50%;
+	top:50%;
+	position: absolute;
+	margin-left: -70px;
+	margin-top: -70px;
+}
+
+.blue-top,
+.blue-bottom {
+	width: 66px;
+	height: 66px;
+	background: #1b76c5;
+	border-radius: 66px 0 0;
+	-webkit-border-radius: 66px 0 0;
+	-moz-border-radius: 66px 0 0;
+	margin-top: 4px;
+	margin-left: 4px;
+}
+
+.blue-bottom {
+	border-radius: 0 0 66px;
+	-webkit-border-radius: 0 0 66px;
+	-moz-border-radius: 0 0 66px;
+    margin-left: 70px;
+    margin-top: 0;
+}
+
+/*text*/
+.black .letters {
+	font-weight: normal;
+	font-size: 45px;
+	width: 240px;
+	text-align: center;
+	display: block;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.black .letters span {
+	position: absolute;
+}
+
+.black .letters span.b {
+    left: 27px;
+    top: 28px;
+    transform: rotate(311deg);
+    -webkit-transform: rotate(311deg);
+    -moz-transform: rotate(311deg);
+    -o-transform: rotate(311deg);
+    -ms-transform: rotate(311deg);
+    font-size: 46px;
+}
+
+.black .letters span.m {
+	left: 92px;
+    top: -4px;
+}
+
+.black .letters span.w {
+	right: 17px;
+    top: 33px;
+    transform: rotate(415deg) ;
+    -webkit-transform: rotate(415deg) ;
+    -moz-transform: rotate(415deg) ;
+    -o-transform: rotate(415deg) ;
+    -ms-transform: rotate(415deg) ;
+}
+
+
+
+
